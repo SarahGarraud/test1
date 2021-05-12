@@ -1,0 +1,313 @@
+@font-face {
+	font-family: 'Dylovastuff';
+  	src: url('fonts/Dylovastuff-r5GK.ttf'); /*typographie titrage futuriste*/
+
+  	font-family: Roboto;
+    src: url('fonts/Roboto-Light.ttf'); /*typographie des textes*/
+ }
+
+ @keyframes picto{
+ 	0%{
+ 		margin-top: -20px;
+ 	}
+
+ 	30%{
+ 		margin-top: -40px;
+ 	}
+
+ 	60%{
+ 		margin-top: -20px;
+ 	}
+ }
+
+ body{
+ 	background-color: #CDE77F; /*vert pomme*/
+
+ }
+
+ #conteneur{
+ 	width: 800px;
+ 	/*border: 1px solid red;*/
+ 	margin: auto;
+ }
+
+ #conteneur2{
+ 	width: 900px;
+ 	margin:auto;
+ }
+
+ h1{ /*Titre*/
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	font-family: 'Dylovastuff';
+ 	text-transform: uppercase;
+ 	color: white;
+ 	font-size: 3.7em;
+ 	/*border:3px solid black;*/
+ 	text-align: center;
+ 	margin: auto;
+
+ }
+
+ figure{ /*Image de Bebot ou de fond*/
+ 	width: 700px;
+ 	margin: auto;
+ 	
+ }
+
+ #picto{
+ 	width: 150px;
+ 	position: absolute;
+ 	margin-left: 900px;
+ 	margin-top: -20px;
+ 	animation: picto 1s infinite; /*Animation du point d'interrogation*/
+ }
+
+ #picto:hover{
+ 	animation: none;
+
+ }
+
+ #picto p:hover{
+ 	color: #3A506B; /*Bleu gris foncé*/
+
+ }
+ #picto a{
+ 	text-decoration: none;
+ }
+
+ #picto p{
+ 	font-family: 'Dylovastuff';
+ 	font-size: 3.7em;
+ 	color: white;
+
+ }
+
+ #fondtopo{
+ 	width: 800px;
+ 	margin-left:46px;
+ 	position: absolute;
+ 	margin-top: -20px;
+ }
+
+  #fondapropos{
+ 	width: 800px;
+ 	margin-left:2px;
+ 	position: absolute;
+ 	margin-top: -20px;
+ }
+
+/* _            _            
+| |          | |           
+| |_ _____  _| |_ ___  ___ 
+| __/ _ \ \/ / __/ _ \/ __|
+| ||  __/>  <| ||  __/\__ \
+ \__\___/_/\_\\__\___||___/*/
+ 
+
+.intro{ /*Bloc texte d'introduction*/
+	margin-top: 10px;
+	/*border:1px solid red;*/
+	padding: 20px;
+	border-radius: 20px;
+	background-color: #adceba; /*bleu vert*/
+}
+
+
+.intro p{ /*Texte d'introduction*/
+	font-family: Roboto;
+	font-size: 1.3em;
+	color: white;
+	text-align: center;
+	
+}
+
+.topo{
+/*	margin-top: 10px;*/
+	width: 600px;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 5px 5px 0px lightgrey;
+	border-radius: 20px;
+	position: absolute;
+	margin-left: 120px;
+	margin-top: 75px;
+
+}
+
+.topo p{
+	font-family: Roboto;
+	font-size: 1.1em;
+	color: black;
+	text-align: center;
+	line-height: 20px;
+}
+
+.apropos{
+	width: 600px;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 5px 5px 0px lightgrey;
+	border-radius: 20px;
+	position: absolute;
+	margin-left: 83px;
+	margin-top: 71px;
+
+}
+
+.apropos p{
+	font-family: Roboto;
+	font-size: 1.3em;
+	color: black;
+	text-align: center;
+	line-height: 22px;
+
+}
+.apropos a{
+	text-decoration: none;
+	font-weight:bold;
+	color: black;
+}
+
+/* _                 _                  
+| |               | |                 
+| |__   ___  _   _| |_ ___  _ __  ___ 
+| '_ \ / _ \| | | | __/ _ \| '_ \/ __|
+| |_) | (_) | |_| | || (_) | | | \__ \
+|_.__/ \___/ \__,_|\__\___/|_| |_|___/*/
+
+
+#bouton{ /*Bouton "Discutons !"*/
+	width: 300px;
+	border-radius: 20px;
+	background-color: #9BC4CB; /*Bleu clair*/
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 240px;
+	margin-bottom: 100px;
+	/*margin: auto;*/
+
+}
+
+
+#bouton h2{ /*Texte de "Discutons !"*/
+	font-family: 'Dylovastuff';
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	color: white
+}
+
+#bouton h2:hover
+{ /*Changer la couleur au passage de la souris*/
+	color: #3A506B; /*Bleu gris foncé*/
+}
+
+#bouton a
+{ /*Ôter le sous-lignage du lien du bouton*/
+	text-decoration: none;
+
+	
+}
+#boutonportfolio{ /*Bouton "Discutons !"*/
+	width: 300px;
+	border-radius: 20px;
+	background-color: #9BC4CB; /*Bleu clair*/
+	padding: 10px;
+	margin-top: 450px;
+	margin-left: 240px;
+	/*margin-bottom: 0px;*/
+	
+
+}
+#boutonportfolio h2{ /*Texte de "Discutons !"*/
+	font-family: 'Dylovastuff';
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	color: white
+
+}
+
+#boutonportfolio h2:hover
+{ /*Changer la couleur au passage de la souris*/
+	color: #3A506B; /*Bleu gris foncé*/
+}
+
+#boutonportfolio a
+{ /*Ôter le sous-lignage du lien du bouton*/
+	text-decoration: none;
+
+	
+}
+
+#soustitretopo{
+	width: 300px;
+	border-radius: 20px;
+	background-color: #9BC4CB; /*Bleu clair*/
+	padding: 10px;
+	margin: auto;
+
+
+}
+
+#soustitretopo h2{
+	font-family: 'Dylovastuff';
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	color: white
+
+}
+#soustitreapropos{
+	width: 200px;
+	border-radius: 20px;
+	background-color: #9BC4CB; /*Bleu clair*/
+	padding: 10px;
+	margin: auto;
+
+
+}
+
+#soustitreapropos h2{
+	font-family: 'Dylovastuff';
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	color: white
+
+}
+
+/*  __            _            
+ / _|          | |           
+| |_ ___   ___ | |_ ___ _ __ 
+|  _/ _ \ / _ \| __/ _ \ '__|
+| || (_) | (_) | ||  __/ |   
+|_| \___/ \___/ \__\___|_|*/
+
+footer{
+	height: 5vh;
+	background-color: white;
+	width: 100vw;
+	position: fixed;
+	bottom: 0px;
+	opacity: 50%;
+	
+}
+
+footer p{
+	font-family: Roboto;
+	padding: 10px;
+	text-align: center;
+	color:#9BC4CB; /*Bleu clair*/
+
+}
+
+
+
+
+
+
+
+
+
